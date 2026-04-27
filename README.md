@@ -5,12 +5,12 @@
 [![Docker](https://img.shields.io/badge/Container-Docker-blue.svg)](https://www.docker.com/)
 [![SQL Server](https://img.shields.io/badge/Database-MSSQL-red.svg)](https://www.microsoft.com/en-us/sql-server/)
 
-## 📌 Project Overview
+## Project Overview
 Developed by **Devika Shivabasappa Rudagi**, an **MS Computer Science** candidate at **San Francisco Bay University** with over **5 years of experience** in full-stack and backend development.
 
 This project is a high-performance, event-driven microservices ecosystem designed to manage multi-warehouse inventory tracking and order fulfillment. It serves as a technical validation of professional expertise in building **enterprise monitoring applications** and **scalable inventory platforms**. The system is engineered to handle high-volume data pipelines, reflecting real-world requirements for speed, reliability, and quality
 
-## 🏗️ System Architecture
+## System Architecture
 The orchestrator leverages **Distributed Systems** concepts and **Microservices** architecture:
 
 1.  **Ingestion Layer (Producer):** A **RESTful API** built with **ASP.NET Core** and **C#**. It acts as a secure gateway for incoming inventory updates, featuring structured JSON handling and validation.
@@ -19,7 +19,7 @@ The orchestrator leverages **Distributed Systems** concepts and **Microservices*
 
 
 
-## 🛠️ Technical Features & Skills Validation
+## Technical Features & Skills Validation
 
 ### 1. Event-Driven Decoupling
 * **Implementation**: Developed asynchronous messaging pipelines using **RabbitMQ** and **SignalR**.
@@ -37,14 +37,14 @@ The orchestrator leverages **Distributed Systems** concepts and **Microservices*
 * **Containerization**: Fully containerized using **Docker** for seamless deployment across environments.
 * **CI/CD**: Integrated with **GitHub Actions** to maintain high release velocity.
 
-## 💻 Tech Stack
+##  Tech Stack
 * **Languages**: C#, SQL, JavaScript.
 * **Frameworks**: .NET Core, ASP.NET Core Web API, MVC.
-* **Databases**: MSSQL, MySQL.
-* **DevOps/Tools**: Docker, RabbitMQ, Git, Jenkins, Postman, Swagger.
+* **Databases**: MSSQL.
+* **DevOps/Tools**: Docker, RabbitMQ, Postman, Swagger.
 * **Testing**: Cypress (E2E), NUnit.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 * **Docker Desktop**
@@ -65,7 +65,7 @@ The orchestrator leverages **Distributed Systems** concepts and **Microservices*
     * **Swagger API**: `http://localhost:5001/swagger`.
     * **RabbitMQ Management**: `http://localhost:15672` (Default: guest/guest).
 
-## 📊 Database Schema Highlights
+##  Database Schema Highlights
 The **MSSQL** implementation includes optimized indexes for real-time warehouse analytics:
 ```sql
 -- High-priority index for urgent tracking updates
