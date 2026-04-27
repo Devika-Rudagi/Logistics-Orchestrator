@@ -35,7 +35,7 @@ The orchestrator leverages **Distributed Systems** concepts and **Microservices*
 
 ### 4. DevOps & Resilience
 * **Containerization**: Fully containerized using **Docker** for seamless deployment across environments.
-* **CI/CD**: Integrated with **GitHub Actions** and **Jenkins** to maintain high release velocity.
+* **CI/CD**: Integrated with **GitHub Actions** to maintain high release velocity.
 
 ## 💻 Tech Stack
 * **Languages**: C#, SQL, JavaScript.
